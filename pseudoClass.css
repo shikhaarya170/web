@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pseudo class - :hover, :focus, :active
+:first-of-type, :last-of-type, :nth-of-type,:has, :is, :not */
+
+/* 
+  Pseudo element: :first-line, :first-letter, :before, after
+  ::placeholder (it has to be written with double colon) 
+
+
+*/
+
+
+
+
+
+
+
+
+/* Pseudo: classes which do not exist in HTML, yet are used in CSS */
+/* Pseudo classes are written with colon */
+
+/* :hover, :focus, :active
+:first-of-type, :last-of-type, :nth-of-type
+:first-child, :last-child, :nth-child
+
+:first-line, :first-letter */
+
+/* :has, :is, :not */
+
+/* :before, :after */
+
+
+ .menu{ 
+  color: red;
+} 
+
+
+/* li{ */
+  /* color: red; */
+/* }  */
+/* li:first-child{
+  color: green;
+}
+li:last-of-type{
+  color: pink;
+} */
+
+/* li:nth-child(3){
+  color: blue;
+} */
+
+/* li:nth-of-type(2n){
+  font-size: 2rem;
+  color: pink
+}
+li:nth-of-type(2n+1){
+  font-size: 4rem;
+} */
+
+
+li:nth-of-type(7) a{
+  color: red;
+} 
+
+ /* ul:nth-child(2) li:nth-child(7) a{  */
+  /* color:red */
+/* }  */
+
+
+/* p::first-line{
+  color: red;
+}
+
+p:first-letter{
+  font-size: 3rem
+  ;
+} */
+
+/* p:first-child:first-line{
+  color:red;
+} */
+
+/* 
+
+input{
+  margin: 1rem;
+}
+input:focus{
+  background-color: rgb(180, 151, 151);
+}
+input:focus::placeholder{
+  color: #fff;
+}
+
+
+a{
+  color: #f0f;
+}
+a:active{
+  color: blue;
+} */
+
+
+
+
+
+
+ /* li a{  */
+  /* color: red; */
+/* }  */
+
+/* li:nth-child(2n) a{  */
+  /* color:blue; */
+/* }  */

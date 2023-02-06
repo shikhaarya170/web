@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TRANSITION: smooth change of a CSS property from one value to another */
+/* TRANSITION WORKS ONLY ON HOVER */
+/* 
+transition-property *
+transition-duration *
+transition-delay
+transition-timing-function: ease | ease-in | ease-out | ease-in-out | linear
+*/
+
+
+
+.box{
+  background-color: blue;
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  /* transition-property: background-color, height, width, transform;
+  transition-duration: 5s;
+  transition-delay: 1s;
+  transition-timing-function: linear; */
+
+
+  /* transition: background-color 5s 1s linear, height 5s 1s linear, width 5s 1s linear, transform 5s 1s linear; */
+  transition: all 5s 1s linear;
+
+}
+.box:hover{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  transform: rotate(360deg);
+}
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
